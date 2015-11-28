@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="instructions">Hola, escribe tu nombre.</string>
+    <string name="name">Nombre</string>
+    <string name="say_hello">Saludar</string>
+    <string name="welcome">¡Hola %s !</string>
+</resources>
