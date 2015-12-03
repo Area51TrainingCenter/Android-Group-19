@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Broadcast App</string>
+    <string name="broadcast_airplane_mode">Cambió el estado del modo avión a: %s</string>
+    <string name="broadcast_location_provider_changed">Cambió el estado de un proveedor de localización.</string>
+    <string name="broadcast_my_custom_intent">Se recibió el Intent implícito.</string>
+    <string name="broadcast_explicit_intent">Se recibió el Intent explícito.</string>
+    <string name="default_case">N/A</string>
+    <string name="enabled">Activado</string>
+    <string name="disabled">Desactivado</string>
+    <string name="instructions">Presiona cualquiera de los botones para lanzar broadcasts desde este Activity. Estos Broadcasts serán capturados por el Broadcast Receiver.</string>
+    <string name="launch_explicit_intent_broadcast">Lanzar broadcast con Intent explícito</string>
+    <string name="launch_implicit_intent_broadcast">Lanzar broadcast con Intent implícito</string>
+</resources>
