@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Service Test</string>
+    <string name="foreground_service_title">Servicio Foreground</string>
+    <string name="foreground_service_message">Este servicio está iniciado en modo Foreground</string>
+    <string name="service_first_execution">El servicio se está ejecutando por primera vez.</string>
+    <string name="service_in_execution">El servicio ya se está ejecutando.</string>
+    <string name="instructions">Presiona los botones para iniciar o detener el servicio.</string>
+    <string name="start_service">Iniciar servicio</string>
+    <string name="stop_service">Detener servicio</string>
+</resources>
