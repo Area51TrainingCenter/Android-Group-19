@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Threads Project</string>
+    <string name="ui_thread">Hilo de la interfaz gráfica</string>
+    <string name="worker_thread">Hilo secundario</string>
+    <string name="async_task">Clase AsyncTask</string>
+    <string name="loading_dialog_title">Cargando&#8230;</string>
+    <string name="loading_dialog_message">Un momento</string>
+</resources>

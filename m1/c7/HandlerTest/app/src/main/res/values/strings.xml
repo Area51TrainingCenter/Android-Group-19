@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Handler Test</string>
+    <string name="loading_dialog_title">Espera</string>
+    <string name="loading_dialog_message">Un momento&#8230;</string>
+    <string name="execute_long_task">Ejecutar tarea larga</string>
+</resources>
