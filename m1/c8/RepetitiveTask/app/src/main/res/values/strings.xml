@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Handler Repetitive Tasks</string>
+
+    <string name="start_handler_updates">Iniciar repetición</string>
+    <string name="stop_handler_updates">Detener repetición</string>
+</resources>
