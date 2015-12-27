@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="120dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/list_element_date"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="end|center"
+        android:textStyle="bold"
+        tools:text="15/12/1912" />
+
+    <TextView
+        android:id="@+id/list_element_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@android:color/holo_purple"
+        android:gravity="center"
+        android:textSize="20sp"
+        tools:text="Título" />
+
+    <TextView
+        android:id="@+id/list_element_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/colorAccent"
+        android:textSize="18sp"
+        tools:text="Este es el contenido." />
+
+</LinearLayout>
