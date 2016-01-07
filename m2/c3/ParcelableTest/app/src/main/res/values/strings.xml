@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Parcelable Test</string>
+
+    <string name="send_parcelable">Enviar objeto Parcelable</string>
+</resources>
