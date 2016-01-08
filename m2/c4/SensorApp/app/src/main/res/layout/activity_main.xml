@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pe.area51.sensorapp.MainActivity">
+
+    <TextView
+        android:id="@+id/textview_accelerometer_x"
+        style="@style/InfoLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        tools:text="Accelerometer X:" />
+
+    <TextView
+        android:id="@+id/textview_accelerometer_y"
+        style="@style/InfoLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_accelerometer_x"
+        tools:text="Accelerometer Y:" />
+
+    <TextView
+        android:id="@+id/textview_accelerometer_z"
+        style="@style/InfoLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_accelerometer_y"
+        tools:text="Accelerometer Z:" />
+
+    <Button
+        android:id="@+id/button_toggle_accelerometer"
+        style="@style/ToggleAccelerometerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/toggle_accelerometer" />
+</RelativeLayout>

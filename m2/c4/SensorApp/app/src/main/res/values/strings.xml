@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sensor App</string>
+
+    <string name="toggle_accelerometer">Activar/desactivar acelerómetro</string>
+    <string name="x_axis">Eje X: %s</string>
+    <string name="y_axis">Eje Y: %s</string>
+    <string name="z_axis">Eje Z: %s</string>
+</resources>
