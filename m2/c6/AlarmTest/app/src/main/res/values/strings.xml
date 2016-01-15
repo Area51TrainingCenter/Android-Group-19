@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Alarm Test</string>
+
+    <string name="register_alarm">Registrar alarma</string>
+    <string name="time_in_seconds">Tiempo en segundos</string>
+    <string name="alarm_launched">¡Alarma lanzada!</string>
+    <string name="dismiss">Cerrar</string>
+    <string name="enter_a_valid_number">¡Ingresa un número válido!</string>
+    <string name="ringtone_not_available">Tono de llamada no disponible.</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Location App</string>
+
+    <string name="toggle_location_retrieving">Iniciar/Detener obtención de ubicación</string>
+    <string name="latitude">Latitud: %s</string>
+    <string name="longitude">Longitud: %s</string>
+    <string name="altitude">Altitud: %s metros.</string>
+    <string name="provider">Proveedor: %s</string>
+    <string name="timestamp">Timestamp: %s</string>
+    <string name="accuracy">Precisión: %s metros.</string>
+</resources>
