@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shared Preferences Test</string>
+
+    <string name="last_visitor">Último visitante: %s.</string>
+    <string name="greetings">¡Hola %s!</string>
+    <string name="visitor_name_hint">Nombre</string>
+    <string name="first_visitor">¡Eres el primer visitante!</string>
+    <string name="register_visitor">Registrar visitante</string>
+</resources>
