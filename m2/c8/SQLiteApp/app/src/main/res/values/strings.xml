@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragment App</string>
+
+    <string name="insert_note">Nueva Nota</string>
+</resources>
