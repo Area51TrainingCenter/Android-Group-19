@@ -18,10 +18,12 @@ public class MainActivity extends AppCompatActivity implements ListFragment.List
         fragmentManager = getSupportFragmentManager();
         setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
+            final ListFragment listFragment = new ListFragment();
             fragmentManager
                     .beginTransaction()
-                    .replace(R.id.fragment_container, new ListFragment(), LIST_FRAGMENT_TAG)
+                    .replace(R.id.fragment_container, listFragment, LIST_FRAGMENT_TAG)
                     .commit();
+            listFragment.setListFragmentInterface(this);
         } else {
             final Fragment fragment = fragmentManager.findFragmentByTag(LIST_FRAGMENT_TAG);
             if (fragment != null) {
