@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">List Adapter</string>
+
+    <string name="add_note">Agregar nota</string>
+</resources>
